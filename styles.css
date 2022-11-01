@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,24 +11,42 @@ body {
 }
 
 .col {
-    border: 1px solid black;
-    flex: 1; 
-    background:darkblue;
+   
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.col h2{
-    padding:10px;
+.col h2 {
+    padding: 10px;
     color: #ccc;
-    border-radius: 10px; 
+    border-radius: 10px;
     transition: background 0.3s;
 }
 
-.col h2:hover{
-    background: rgba(0,0,0,0.1);
-    cursor:pointer;
+.col h2:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
+.col button {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+
+
+}
+
+.col button:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
 
 }
